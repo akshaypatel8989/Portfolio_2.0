@@ -8,7 +8,7 @@ import { Particles } from '@/components/Particles';
 import { stats } from '@/data/about';
 
 const AVATAR =
-  '../public/Akshay_Patel.png?auto=compress&cs=tinysrgb&w=900';
+  '../public/Akshay_Patel.png';
 
 const scrollTo = (id: string) => {
   const el = document.getElementById(id);
@@ -97,7 +97,7 @@ export function Hero() {
               <FaGithub className="h-5 w-5" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/akshay-patel-0716122a1"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
@@ -147,7 +147,7 @@ export function Hero() {
             20+ Projects
           </div>
 
-          <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] border border-white/30 bg-gradient-to-b from-brand-500/20 to-transparent shadow-glow-lg backdrop-blur">
+          <div className="relative aspect-square w-full max-w-[420px] mx-auto overflow-hidden rounded-full border border-white/30 bg-gradient-to-b from-brand-500/20 to-transparent shadow-glow-lg backdrop-blur">
             <div className="absolute inset-0 animate-spin-slow rounded-full border-2 border-dashed border-brand-500/30 [mask-image:linear-gradient(black,transparent_60%)]" />
             <img
               src={AVATAR}
@@ -156,7 +156,7 @@ export function Hero() {
               className="h-full w-full object-cover object-top"
             />
             <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-[#03060f]/70 to-transparent" />
-            <div className="absolute bottom-4 left-4 flex items-center gap-2 rounded-full bg-white/15 px-3 py-1.5 text-xs font-medium text-white backdrop-blur-md">
+            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex items-center gap-2 whitespace-nowrap rounded-full bg-white/15 px-3 py-1.5 text-xs font-medium text-white backdrop-blur-md">
               <span className="h-2 w-2 animate-pulse rounded-full bg-emerald-400" /> Open to opportunities
             </div>
           </div>

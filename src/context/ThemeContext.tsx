@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
 
-type Theme = 'dark' | 'light';
+type Theme = 'light' | 'dark';
 
 interface ThemeContextValue {
   theme: Theme;
@@ -11,9 +11,13 @@ const ThemeContext = createContext<ThemeContextValue | undefined>(undefined);
 
 function getInitialTheme(): Theme {
   if (typeof window === 'undefined') return 'dark';
+  
+  // 1. Check if user previously toggled and saved a theme preference
   const stored = window.localStorage.getItem('theme');
-  if (stored === 'dark' || stored === 'dark') return stored;
-  return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  if (stored === 'light' || stored === 'dark') return stored;
+  
+  // 2. Default to dark mode if no saved preference exists
+  return 'dark';
 }
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
