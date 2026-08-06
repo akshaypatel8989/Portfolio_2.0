@@ -8,7 +8,7 @@ import { Particles } from '@/components/Particles';
 import { stats } from '@/data/about';
 
 const AVATAR =
-  '../public/Akshay_Patel.png';
+  'https://res.cloudinary.com/dqsv4qf3v/image/upload/v1786043133/Akshay_Patel_clluyf.png';
 
 const scrollTo = (id: string) => {
   const el = document.getElementById(id);

@@ -25,9 +25,9 @@ export function Contact() {
     'w-full rounded-xl border border-slate-300 bg-white/60 px-4 py-3 text-sm text-slate-900 outline-none transition-colors placeholder:text-slate-400 focus:border-brand-500 focus:ring-2 focus:ring-brand-500/30 dark:border-white/10 dark:bg-white/5 dark:text-white';
 
   const contactItems = [
-    { icon: Mail, label: 'Email', value: 'akshay.patel@example.com', href: 'mailto:akshay.patel@example.com' },
-    { icon: Phone, label: 'Phone', value: '+91 90000 00000', href: 'tel:+919000000000' },
-    { icon: MapPin, label: 'Location', value: 'Pune, Maharashtra, India', href: 'https://maps.google.com/?q=Pune' },
+    { icon: Mail, label: 'Email', value: 'akshaypatel10.g@gmail.com', href: 'mailto:akshaypatel10.g@gmail.com' },
+    { icon: Phone, label: 'Phone', value: '+91 99265 95561', href: 'tel:+919926595561' },
+    { icon: MapPin, label: 'Location', value: 'Indore, Madhya Pradesh, India', href: 'https://maps.google.com/?q=Pune' },
   ];
 
   return (

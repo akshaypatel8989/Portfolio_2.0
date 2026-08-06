@@ -68,9 +68,9 @@ export function Footer() {
               Get in Touch
             </h3>
             <ul className="mt-4 space-y-2 text-sm text-slate-600 dark:text-slate-400">
-              <li>akshay.patel@example.com</li>
-              <li>+91 90000 00000</li>
-              <li>Pune, Maharashtra, India</li>
+              <li>akshaypatel10.g@mail.com</li>
+              <li>+91 99265 95561</li>
+              <li>Indore, Madhya Pradesh, India</li>
             </ul>
             <button
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}

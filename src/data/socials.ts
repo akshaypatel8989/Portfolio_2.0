@@ -5,8 +5,8 @@ export interface Social {
 }
 
 export const socials: Social[] = [
-  { name: 'GitHub', href: 'https://github.com', icon: 'github' },
-  { name: 'LinkedIn', href: 'https://linkedin.com', icon: 'linkedin' },
-  { name: 'Email', href: 'mailto:akshay.patel@example.com', icon: 'email' },
-  { name: 'Phone', href: 'tel:+919000000000', icon: 'phone' },
+  { name: 'GitHub', href: 'https://github.com/akshaypatel8989/Ecommerce-web/issues', icon: 'github' },
+  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/akshay-patel-0716122a1?utm_source', icon: 'linkedin' },
+  { name: 'Email', href: 'mailto:akshaypatel10.g@gmail.com', icon: 'email' },
+  { name: 'Phone', href: 'tel:+919926595561', icon: 'phone' },
 ];

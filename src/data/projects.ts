@@ -20,7 +20,7 @@ export const projects: Project[] = [
     category: 'Full Stack',
     tag: 'Featured',
     image:
-      'https://images.pexels.com/photos/8482510/pexels-photo-8482510.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://i.pinimg.com/736x/98/2f/f3/982ff31b9b2da118f18d2ff4495a4640.jpg?auto=compress&cs=tinysrgb&w=1200',
     blurb:
       'A full-stack platform for listing, searching and managing rental properties with landlord & tenant portals.',
     description:
@@ -33,7 +33,7 @@ export const projects: Project[] = [
     ],
     tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Redux Toolkit', 'Mapbox', 'Tailwind CSS'],
     github: 'https://github.com',
-    live: 'https://example.com',
+    live: 'https://www.sippyhousing.com/',
     featured: true,
   },
   {
